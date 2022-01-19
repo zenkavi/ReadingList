@@ -1,0 +1,9 @@
+
+Luo, W., & Constable, R. T. (2022). Inside information: Systematic within-node functional connectivity changes observed across tasks or groups. NeuroImage, 247, 118792.
+Chicago
+
+[Skimmed not read in detail]
+
+Atlas selection is a problematic step of functional connectivity studies. Problems include: Not knowing which is the best atlas for what purpose; dynamic nature of nodes and edges; and even fundamentally how to define the nodes. Typically nodes are defined as clusters of voxels that have correlated activity above an arbitrary threshold.
+
+Big idea of this paper: Within-node connectivity, i.e. homogeniety of a node changes across tasks and subjects.
