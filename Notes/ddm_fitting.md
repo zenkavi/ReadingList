@@ -1,4 +1,4 @@
-Ratcliff and McKoon (2008), Neural Computation
+Ratcliff and McKoon, (2008), Neural Computation
 ------------------------------------------------
 **p877: Within-trial variability in drift rate (s) is a scaling parameter for the diffusion process (i.e., if it were doubled, other parameters could be multiplied or divided by two to produce exactly the same fits of the model to data).**
 s should be the sd of the normal distribution from the RDV is sampled, which has a mean of drift rate v. Note this varies *within* trial.
@@ -10,7 +10,7 @@ The full DDM has additional sources of variability *across* trials (drift rates,
 The idea behind quantile matching for RT distributions
 **p884:Over the whole distribution, the five quantile RTs provide an adequate summary for modeling purposes because they capture the typical RT distribution shape: unimodal with a relatively rapid rise to a peak followed by a longer tail.**
 
-Ratcliff and Tuerlinckx (2002). Psych. Bull. Rev.
+Ratcliff and Tuerlinckx, (2002), Psych. Bull. Rev.
 --------------------------------------------------
 
 Fixing (but not omitting) the within trial variability in drift rate and why *not fixing any other parameter instead*
@@ -22,3 +22,16 @@ Why are they ok holding the within trial variability fixed but not the across tr
 In our data we see slow errors (when fractals are relevant) which might be due to low accuracy
 
 Note that in both papers there is an emphasis on the diffusion model being a *a model of the decision process* which makes me wonder if it's pushing the limits to try to model other processes (e.g. learning, attribute relevance distortion) at the same time.
+
+**p443: Collectively, the comparisons [between data and model fits] require the predicted probability densities for individual reaction times, the predicted cumulative probability distribution, and predicted values of accuracy for each of the experimental conditions.**
+
+**p443: By a defective density, we mean nothing more than one that does not integrate to one (see Feller, 1968); it integrates to the probability of the response. The product of these defective density values is the likelihood that is to be maximized by adjustment of parameter values**
+
+
+Boehm et al., (2018), J. Math. Psych.
+------------------------------------------
+
+Across trial variability and slow versus fast errors
+**p47: allowing the starting point of the accumulation process to vary across trials enables models to produce fast errors (Laming, 1968), whereas allowing the drift rate of the accumulation process to vary across trials enables models to produce slow errors (Ratcliff, 1978). [...]errors tend to be slower than correct responses when accuracy is high, and errors tend to be faster than correct responses when accuracy is low.**
+
+See Lerche and Voss (2017) for retest reliability of some DDM parameters.
