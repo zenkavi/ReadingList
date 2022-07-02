@@ -31,7 +31,7 @@ Note that in both papers there is an emphasis on the diffusion model being a *a 
 
 
 Boehm et al., (2018), J. Math. Psych.
-------------------------------------------
+-------------------------------------
 
 Across trial variability and slow versus fast errors  
 **p47: allowing the starting point of the accumulation process to vary across trials enables models to produce fast errors (Laming, 1968), whereas allowing the drift rate of the accumulation process to vary across trials enables models to produce slow errors (Ratcliff, 1978). [...]errors tend to be slower than correct responses when accuracy is high, and errors tend to be faster than correct responses when accuracy is low.**  
@@ -39,3 +39,15 @@ Across trial variability and slow versus fast errors
 See Lerche and Voss (2017) and Yap, Balota, Sibley, and Ratcliff (2012) for retest reliability of some DDM parameters.  
 
 Though the specifics of their conclusions on estimating trialwise variability parameters do not apply to my problem directly, this paper was very useful in two ways: 1. It clarified my understanding of the full DDM and all of its parameters 2. It exposed me to the various packages "experts" in the field are using.  
+
+Next up: Get a sense of if you can use Turner et al.'s pseudo-likelihood approach and/or Heathcote et al.'s "Dynamic Models of Choice toolbox"
+Also clarify asap: How would you use this for any fmri analysis?
+
+Heatchote et al., (2019) Beh. Dec. Res. Met.
+---------------------------------------------
+
+Group of R scripts along with tutorials. Able to fit 3 common RT models (DDM, LBA and another that I'm not familiar with) in a Bayesian manner.  
+
+Should also be possible to add custom models and fit them hierarchically too.  
+
+Would be a lot easier to use if it were a package with function documentation.  
